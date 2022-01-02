@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #055999;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background: #055999;
+  color: #fff;
+}
+
+.carousel-caption {
+  bottom: 9.25rem;
+  left: 9%;
+}
+
+.sbox {
+  font-size: 13px;
+  background: #efefef;
+  border: 1px solid #efefef;
+}
+
+.sbox i {
+  font-size: 4rem;
+}
+
+.sbox:hover {
+  background: #fff;
+  border: 1px solid #055999;
+}
+
+.btn-primary {
+  background: #055999;
+  border-radius: 0px;
+  border: none;
+}
+
+.team {
+  background: #055999;
+}
+
+footer {
+  background: #1B1B1B;
+  color: #ccc;
+  font-size: 13px;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.arrow {
+  background: red;
+  display: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  background: #055999;
+  color: #fff;
+}
+
+.breadcrumb {
+  background: #2058AF url(https://webthemez.com/demo/overtake-business-bootstrap-html-website-template/img/slides/1.jpg);
+  color: #fff;
+  background-size: 300px 100px;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+/*# sourceMappingURL=style.css.map */
